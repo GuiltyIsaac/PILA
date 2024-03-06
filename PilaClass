@@ -17,7 +17,7 @@ namespace Pila
         {
 
         }
-        public Pila() : this(MIDA_DEFAULT)
+        public Pila()
         {
 
         }
