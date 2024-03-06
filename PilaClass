@@ -1,0 +1,61 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace Pila
+{
+    internal class Pila<T>
+    {
+        private T[] dades;
+        private int nElements;
+
+        public const int MIDA_DEFAULT = 10;
+
+        public Pila(int mida)
+        {
+
+        }
+        public Pila() : this(MIDA_DEFAULT)
+        {
+
+        }
+        public void Empila(T element)
+        {
+
+        }
+        public T Desempila()
+        {
+
+        }
+        public T Cim
+        {
+
+        }
+        public bool EsBuida
+        {
+
+        }
+        public bool EsPlena
+        {
+
+        }
+        public override bool Equals(object obj)
+        {
+            return base.Equals(obj); //CAMBIAR
+        }
+        public override string ToString()
+        {
+            return base.ToString(); //CAMBIAR
+
+            //SORTIDA
+            //Opcio: 10
+            //CPAPACITAT 5/10: -5-4-3-2-1-
+            //PILA PLENA :10-9-8-7-6-5-4-3-2-1-
+            //PILA BUIDA:-
+            //PILA BUIDA:-
+            //PILA BUIDA:-
+        }
+    }
+}
